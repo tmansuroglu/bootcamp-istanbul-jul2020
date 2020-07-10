@@ -1,3 +1,4 @@
+```
 go to ketchen's door
 for each cabinet
    open it
@@ -18,3 +19,4 @@ for every wall in the kitchen
     plug the kettle
     wait until the temperature reaches 100 degree or you see bubble and vapour
     unplug it
+```
