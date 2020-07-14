@@ -1,0 +1,119 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+h6{
+  color:grey;
+  display: inline;
+}
+hr{
+  color: grey;
+}
+
+section{
+  margin:20px 0;
+}
+.imagelast{
+  width: 30%;
+}
+figure{
+  margin-left: 25%;
+}
+.cssButton{
+  background: green;
+  color: white;
+  border: 1polid green;
+}
+.jsButton1{
+  background: blue;
+  color: white;
+  border: 1px solid blue;
+}
+.jsButton2{
+  background: red;
+  color: white;
+  border: 1px solid red;
+}
+.visitedButton{
+  background: grey;
+  color: white;
+  border: 1px solid gray;
+}
+
+.image-face{
+  display: inline;
+  float: right;
+}
+
+main {
+  margin: 10px 100px 10px 200px; 
+  padding-left:20px;
+  
+}
+footer{
+  text-align: center;
+}
+
+footer a{
+  margin: 20px;
+  color: grey;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#364552;
+  overflow-x: hidden;
+
+  display:flex;
+  flex-direction:column;
+  text-align:right;
+  justify-content:center;
+
+}
+
+#sidenav-text {
+padding-right:10px;
+padding-left:30px;
+
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 10px;
+  display: block;
+  border:solid 1px #88b4d1;
+  margin:5px;
+  padding:5px;
+  color:white;
+
+  
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.title {
+  color:white;
+}
+
+.sidenav h4 {
+  color:#88b4d1;
+}
+
+.sidenav ul {
+  display:flex;
+  list-style-type: none;
+  
+ 
+}
+
+
