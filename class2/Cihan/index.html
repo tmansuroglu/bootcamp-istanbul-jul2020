@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+      * {
+        font-family:Palatino Linotype;
+      }
+      body{
+        margin:0;
+      }
+      
+      h1 {
+        color: red; 
+        font-size: 40px;
+        text-align: center;
+        margin: 0px;
+        
+      }
+      ul {
+        display: inline-block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }
+      
+      section {
+        text-align: center;
+        background-color: Lightseagreen;
+      }
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      .center {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      img {
+        width: 100%;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      footer {
+        display: flex;
+        justify-content: space-around;
+      }
+      footer p {
+        color: red;
+      }
+    </style>
+    <title>Hi I'm {Cihan}, welcome to my page!</title>
+
+</head>
+<!-- While working on this, do remember to use the proper semantics 👍-->
+<body>
+  <header>
+    <section>
+     <h1><i>Cihan Uygur</i></h1>
+    <!-- Create a big text that contains Your name -->
+    <nav>
+      <ul>
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="about.asp">About</a></li>
+        <li><a href="faq.asp">Faq</a></li>
+        <li><a href="login.asp">Login</a></li>
+      </ul>
+    </nav>
+    <!-- Create list 📃 that will be used for navigations that contains the following:
+    Home, About, FAQ, Login
+    -->
+    </header>
+    <section>
+      <img src="https://images.theconversation.com/files/243439/original/file-20181101-83635-1xcrr39.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip" alt="Leo">
+      <p><small>An adult male’s roar can be heard up to 8km away</small></p>
+<!--  Add a picture here of something you like and add description to it  -->
+      <h2><i>Ahoy! I'm Cihan Uygur</i></h2>
+      <p>I'm from Istanbul. And I was born in <time datetime="18-08-1989">18-08-1989</time></p>
+      <p>I studied at maritime university. I'm a ship captain and traveled to 
+        31 countries around the world 
+      </p>
+    <!-- Talk a little bit about yourself here, talk about
+        where you're from, date of birth (needs to be search engine friendly) , where you studied before,
+        use bold when you mention things you like ♥ and italic when mentioning something you dislike 💔 -->
+        <p><b>&#10084; I love travelling. I love sailing in sunset time <br> I love coffee, y favourite season is summer. And I love to do different things, try new things &#10084;<b></p>
+        <p style="color:gray;">I don't like cloudy days</p>
+    <!-- Create a table here that contains the following data about your friends :
+     Columns: Name, address, school, phone number, date of birth
+     Add data that corresponds to the columns mentioned above, Doesn't have to be true 😁
+        -->
+      <table class="center">
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>School</th>
+          <th>Phone number</th>
+          <th>Date of birth</th>
+        </th>
+        <tr>
+          <td>Adnan Buğra Sağışman</td>
+          <td>Kurtköy-Istanbul</td>
+          <td>Istanbul Teknik University</td>
+          <td>+905007005520</td>
+          <td>01.06.1990</td>
+        </tr>
+      </table><br><br>
+  
+    <!-- Take your favorite video from youtube and make it playable from this page -->
+    <figcaption>My favorite video</figcaption>
+    <iframe width="1000" height="500" src="https://www.youtube.com/embed/LKi4BlO_ls8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+    </section><br><br>
+
+    <footer>
+      <!-- Add a form to contact you that has Name, Email, and Message -->
+      <form action="/action_page.php">
+        <label for="fullname"></label>
+        <input type="text" name="fullname" id="fullname" placeholder="Enter Name" required><br>
+        <label for="email"></label>
+        <input type="email" name="email" id="email" placeholder="Enter Email" required><br>
+        <label for="message"></label>
+        <textarea name="message" id="message" cols="20" rows="3" placeholder="Enter Message"></textarea><br>
+        <input type="submit" value="submit">
+      </form><br>
+      <br><br>
+    <!-- Add a footer with links to social media, links don't have to go anywhere -->
+      <ul>
+        <p> Find me on social media </p>
+		    <li><a href="https://www.instagram.com/uygurc">Instagram</a></li>
+		    <li><a href="https://www.facebook.com/cihanuygur">Facebook</a></li>
+		  </ul>
+    </footer>
+</body>
+</html>
