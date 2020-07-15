@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+p {
+    font-size: 0.8;
+    color: rgb(104, 100, 102);
+}
+
+h2 span {
+    font-weight: lighter;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(44, 45, 51);
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    list-style: none;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
+
+#section1 {
+    background: url('../../img/cover.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10rem 0;
+}
+
+#section1 div {
+    text-align: center;
+}
+
+.foundersImages {
+    display: flex;
+    align-items: center;
+}
+
+.foundersImages img {
+    width: 40%;
+}
+
+#section1 h1 {
+    font-size: 5rem;
+    margin: 10px 0;
+}
+
+#section1 p {
+    /* margin: 10px 0; */
+    color: white;
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
+#section1 h1 span {
+    color: rgb(67, 190, 109);
+}
+
+#section1 button {
+    background: rgb( 67, 190, 109);
+    border: rgb( 67, 190, 109);
+    color: white;
+    padding: 1rem 3rem;
+    border-radius: 3px;
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+#section2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 10rem;
+    background: rgb( 67, 190, 109);
+    color: white;
+}
+
+#section2 div {
+    text-align: center;
+    padding: 2rem;
+}
+
+#section2 h3 {
+    margin: 0.6rem;
+}
+
+#section2 p {
+    color: white;
+}
+
+#section3 {
+    background: rgb(237, 241, 242);
+    padding: 3rem 10rem;
+}
+
+#section3 .row1 {
+    padding: 3rem 0;
+}
+
+#section3 .row1 h2 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+#section3 .row1 span {
+    font-weight: 300;
+}
+
+#section3 .row1 p {
+    text-align: center;
+}
+
+#section3 .row2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section3 .row2 .col div {
+    padding: 1rem;
+}
+
+#section3 .row2 .col div h4 {
+    margin: 1rem 0;
+}
+
+#section3 .row2 .imgDiv {
+    width: 140rem;
+}
+
+#section3 .row2 .col img {
+    width: 100%;
+}
+
+#section4 {
+    display: flex;
+    padding: 3rem 10rem;
+}
+
+#section4 .row1 {
+    padding-bottom: 2rem;
+    margin-right: 2rem;
+    border-bottom: solid 1px rgb(246, 246, 246);
+}
+
+#section4 .row1 h2 {
+    font-size: 3rem;
+}
+
+#section4 .row1 .subtitle {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+#section4 .row1 .paragraph {
+    font-size: 0.8rem;
+}
+
+#section4 .row2 {
+    display: flex;
+    margin: 2rem 2rem 0 0;
+}
+
+#section4 .row2 div {
+    padding-right: 1rem;
+}
+
+#section4 .row2 img {
+    width: 2.5rem;
+    float: left;
+    margin: 0.5rem;
+}
+
+#section4 .row2 div h5 {
+    font-size: 1rem;
+    padding-bottom: 0.2rem;
+}
+
+#section4 .row2 p {
+    border-bottom: solid 1px rgb(246, 246, 246);
+}
+
+#section4 .col2 div {
+    background: rgb(67, 190, 109);
+    padding: 1rem;
+}
+
+#section4 .col2 p {
+    color: white;
+}
+
+#section4 .col2 div img {
+    float: right;
+    width: 6rem;
+}
+
+#section5 .meetTeam {
+    text-align: center;
+    padding: 2rem 10rem;
+    background: rgb(237, 241, 242);
+}
+
+#section5 .meetTeam h2 {
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+#section5 .teamPics {
+    display: flex;
+    padding: 4rem 0;
+    background: rgb(44, 45, 51);
+    flex-wrap: wrap;
+}
+
+#section5 .teamPics img {
+    width: 12.5%;
+    height: 100%;
+}
+
+#section6 {
+    background: rgb(67, 190, 109);
+    padding: 2rem 10rem;
+}
+
+#section6 .row1 {
+    display: flex;
+    color: white;
+    align-items: center;
+    padding-bottom: 2rem;
+    border-bottom: solid 0.5px rgb(246, 246, 246);
+}
+
+#section6 .row1 h2 {
+    padding: 1rem 0;
+}
+
+#section6 .row1 p {
+    color: white;
+    font-size: small;
+}
+
+#section6 .row1 .col2 {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#section6 .row1 a {
+    color: white;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
