@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "sule-ray",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "sule-ray",
+		"liveServer.settings.port": 5501
+	}
+}
