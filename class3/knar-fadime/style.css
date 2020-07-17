@@ -1,0 +1,266 @@
+/*
+colors
+#414348 blue
+#50c586 green
+#f1f4f5 gray
+#3a3b41 overlay
+*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */ 
+
+
+/*NAVBAR*/
+
+
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl  {
+    background: #414348;
+    padding-left: 10%;
+    padding-right: 10%; 
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color:white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    border-bottom: 1px solid white;
+}
+.navbar-toggler-icon  {
+    background-color: white;
+}
+
+/*Hero section*/
+
+header span {
+    align-items: center;
+}
+header span img{
+    width: 60px;
+    height: 60px;
+}
+
+header h1 span {
+    color: #50c586;
+}
+
+#cover{
+ padding-top: 9%;
+ padding-bottom: 9%;
+}
+
+.btn-group-lg>.btn, .btn-lg{
+    background-color: #50c586;
+    border:none;
+    padding-right: 50px;
+    padding-left:50px;
+
+}
+.btn-group-lg>.btn, .btn-lg:hover,
+.btn-group-lg>.btn, .btn-lg:focus,
+.btn-group-lg>.btn, .btn-lg:active,
+.btn-group-lg>.btn, .btn-lg:visited
+ {
+    background-color: #4eb980;
+    border:none;
+    
+}
+
+#background{
+    color: white;
+   background-position: center;
+   background-size: cover;
+    background-image: url(/image/cover.jpg);
+}
+
+
+/* Services */
+section#services{
+    background-color: #50c586;
+    color: white;
+    padding: 1% 5% 5% 5%;
+}
+
+
+
+/* 2 black dots for image slide*/
+section#services div#slide {
+    display: flex;
+    justify-content: center;
+    
+}
+section#services #dot {
+    background: black;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+
+section#services #dot:last-of-type{
+    opacity: 60%;
+    margin-left: 5px;
+}
+
+
+#services article {
+    padding-top:15%;
+}
+/*what we love*/
+section#love {
+    background: #f1f4f5;
+}
+
+
+section#love div#intro.container{
+    padding:10% 10% 3% 10%;
+    
+}
+div#showcase div.container{
+    padding-left: 10%;
+}
+section#love article#a  p,
+section#love  article#b p
+{
+    border-bottom: 1px solid lightgray;
+}
+
+ div.img img{
+    width: 80%;   
+}
+
+.row-cols-2 article {
+    padding: 0 10% 5% 0;
+}
+.row-cols-2 article p{
+    padding-bottom: 20%;
+}
+section#love p.love{
+    padding-bottom: 2%;
+    border-bottom: 1px solid lightgray;
+}
+
+section#love div#intro h2 span,
+.row-cols-2 article h3{
+
+    font-weight: bold;
+}
+
+section#love{
+    padding-bottom: 5%;
+}
+
+/* section Main area text */
+section#mainArea div.container{
+    padding: 5% 10%;
+}
+
+section#mainArea div.container div#content div#rightText{
+    padding-right: 5%;
+}
+section#mainArea div.container div#content div#greenBox aside div#green{
+    background-color:#50c586;
+    padding: 20px 20px;
+    color: white;
+}
+section#mainArea div.container div#content div#greenBox aside img{
+    width: 100px;
+}
+aside#someWords h3 span{
+    font-weight: bold;
+}
+
+div#mainAreaText{
+   
+    padding-bottom: 30px;
+
+}
+
+div#mainAreaText h2{
+    font-weight:bold;
+    font-size: 4rem;
+}
+
+/*cant find the border*/
+div#mainAreaText p#second {
+    font-size: 0.9rem;
+    border-bottom: black;
+}
+
+div#mainOptions {
+    font-size: 0.8rem;
+}
+
+div#mainOptions h4 {
+    font-weight: bold;
+}
+
+div#mainOptions div.row div.col article{
+    border-top: lightgray;
+    border-bottom: lightgray;
+}
+div#green p{
+    font-style: italic;
+    font-size: 0.9rem;
+}
+div#green span {
+    font-size:2rem;
+    font-weight: bold;
+}
+
+
+/*Team*/
+
+#team h2{
+  font-size: 50px;
+  padding:50px;
+  text-align: center;
+  font-weight: normal;
+}
+#team p{
+  text-align:center;
+}
+#photos{
+  background-color: #3a3b41;
+  padding: 50px 20px 50px 20px;
+}
+
+#contacts, #infos, #connect{
+   padding:20px;
+    background-color: #50c586;
+    color:white;
+}
+#socials{
+    margin-left: 15%;
+    margin-right: 15%;
+    border-bottom: 1px solid white;
+    
+}
+#socialMedia {
+  justify-content: space-evenly;
+}
+
+#socialMedia img{
+width:50px;
+height:50px;
+margin:10px;
+filter: brightness(0) invert(1);
+}
+#adress{
+
+}
+
+#credits{
+    background-color: #3a3b41;
+    color: gray;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    padding: 100px 0 100px 0;
+    
+}
+#credits a{
+    color:#50c586;
+}
