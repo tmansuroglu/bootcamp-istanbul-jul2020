@@ -1,0 +1,145 @@
+/* best practice to avoid empty spaces and to be identical on all browsers */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* apply to the whole body */
+
+body {
+    display: flex;
+    font-family: Helvetica;
+}
+
+
+/* side bar */
+
+aside {
+    width: 50%;
+    background-color: rgb(47, 62, 74);
+    text-align: right;
+    padding-top: 15%;
+    padding-right: 15px;
+    color: white;
+    bottom: 0;
+}
+
+aside p {
+    color: rgb(164, 190, 205);
+    margin: 15px 0;
+}
+
+aside a {
+    border: solid 1px rgb(164, 190, 205);
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 25px 0;
+    color: white;
+    font-size: 10px;
+}
+
+
+/* ---------- */
+
+
+/* rest of the webstie */
+
+main {
+    padding: 30px;
+}
+
+
+/* recent and pinned post styling */
+
+.post {
+    color: rgb(201, 201, 201);
+    border-bottom: rgb(201, 201, 201) solid 1px;
+    font-size: 10px;
+}
+
+
+/* putting the small circle picture on the same line with the title  */
+
+.article-title {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.article-title p {
+    font-size: 10px;
+    color: rgb(133, 136, 135);
+}
+
+.article-title img {
+    width: 50px;
+}
+
+
+/* stylingt the titles and subtiltes of the articles */
+
+article,
+section {
+    padding: 15px;
+}
+
+span {
+    color: white;
+    padding: 2px 5px;
+}
+
+.css {
+    background-color: green;
+}
+
+.js1 {
+    background-color: blue;
+}
+
+.js2 {
+    background-color: red;
+}
+
+.notVisited {
+    background-color: gray;
+}
+
+
+/* displaying the pictures in the last paragraph beside each other */
+
+.pictures {
+    display: flex;
+}
+
+.pictures img {
+    width: 50%;
+    padding: 10px;
+}
+
+
+/* styling the footer */
+
+footer {
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    list-style: none;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(133, 136, 135);
+}
+
+
+/* -------- */
