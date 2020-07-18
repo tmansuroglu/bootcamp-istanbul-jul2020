@@ -1,0 +1,254 @@
+/*
+Upper half is incomplete
+boxes are misaligned. I just adjusted paddings to make it look okay
+small pictures are not added yet
+quote is not fixed
+some classes are repetitive
+headers are not adjusted
+there is no responsive design use bootstrap*/
+
+.d-inline-flex { 
+     flex-flow:row-wrap;
+   }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:;
+}
+
+nav{
+  display:flex;
+  justify-content:space-evenly;
+  flex-direction:row-reverse;
+  
+  color:white;
+  align-items:center;
+}
+
+.intro {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:center;
+  padding-top:120px;
+}
+.why{
+  font-size: 60px;
+}
+
+li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*this is how i put a green layer on top of logos*/
+.green-background {
+  background: linear-gradient(rgba(79, 198, 128, 0.95), rgba(79, 198, 128, 0.95)),
+    url('img/logos.png');
+}
+
+.first-green-container {
+  display:flex;
+  justify-content: center;
+  text-align:center;
+  color:white;
+  align-items:center;
+  /*with these paddings below objects' boxes occupy smaller space. Thus they can be aligned closer ehrn justify-content:center; used*/
+  padding-left:250px;
+  padding-right:250px;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+.first-green-container p {
+margin-top:-15px;
+font-size:100%;
+text-align:center;
+padding-left:50px;
+padding-right:50px;
+
+}
+
+
+
+
+.main-area {
+  margin-top:20px;
+  margin-bottom:70px;
+}
+.m-1 {
+ grid-area: 1/1/2/4;
+ padding:15px;
+}
+
+
+h2 {
+  text-align:center;
+}
+
+.m-1 h2 {
+  text-align:start;
+  font-size:500%;
+}
+
+.m-2 h4 {
+  font-weight:500;
+}
+
+.m-2 h4 b {
+  font-weight:900;
+}
+ 
+
+aside {
+  color:white;
+  background-color:rgb(79, 198, 128);
+  font-size:90%;
+  padding:15px;
+}
+
+.meet-content {
+  display:flex;
+  justify-content:center;
+  background:rgb(241, 244, 245);
+  height:400px;
+  align-items:center;
+
+}
+.container-fluid {
+  padding:0;
+}
+
+
+
+
+.why-we-code {
+background-image:url("img/cover.jpg");
+color:white;
+text-align:center;
+padding-top:150px;
+padding-bottom:150px;
+}
+
+
+.green-bottom-background{
+  background:rgb(79, 198, 128);
+  color:white;
+}
+.bottom-table {
+  width:50%;
+  height:800px;
+  margin-left:20%;
+  margin-right:20%;
+  display:grid;
+  grid-template:1fr 1fr / 1fr 1fr;
+  color:white;
+  
+}
+
+.symbols {
+  display:flex;
+  justify-content:flex-end;
+}
+
+.symbols img{
+  margin:25px;
+}
+
+input[type=text], input[type=email], textarea {
+  width:95%;
+}
+
+textarea {
+  height:100px;
+}
+
+}
+
+
+
+.symbols , .stay-connected {
+
+  margin-bottom:30px;
+}
+
+.stay-connected hr {
+  width:200%;
+  border-color:white;
+}
+.col-sm-6 hr {
+  border-color:white;
+}
+
+#search {
+  width:70px;
+  height:40px;
+}
+
+.black-bottom {
+  background-color:rgb(58, 60, 66);
+  color:#686d75;
+  height:200px;
+}
+
+.green-text {
+  color:rgb(79, 198, 128);
+}
+
+.back-to-top a {
+  margin-right:5%;
+  font-weight:bold;
+  color:rgb(79, 198, 128);
+  text-decoration:none;
+}
+
+
+
+/*headers are not aligned*/
+
+.green-back {
+  background:rgb(79, 198, 128);
+}
+
+.green-back h4, .green-back p {
+  text-align:center;
+}
+
+.green-back img {
+  justify-self:center;
+}
+
+
+.some-words{
+  background-color:rgb(79, 198, 128);
+  color:white;
+  padding:10px 30px 0 30px;
+  }
+
+blockquote {
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote p:before { 
+content: open-quote;
+font-weight: bold;
+font-size:25px;
+color:white;}
+
+blockquote p:after { 
+content: close-quote;
+font-weight: bold;
+font-size:25px;
+color:white;
+margin-top:-5px;
+  
+}
+
+
+   
