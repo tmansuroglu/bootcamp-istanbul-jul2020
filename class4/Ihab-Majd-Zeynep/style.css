@@ -1,0 +1,345 @@
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+  font-size: 2em;
+}
+
+header {
+  text-align: center;
+}
+
+.padding {
+  padding: 15px;
+  padding-top: 5px;
+}
+
+h3 b {
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+h5 {
+  font-weight: 100;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+.black-white {
+  background-color: black;
+  color: white;
+  padding: 4px;
+}
+
+
+
+
+
+.blog-entries {
+  width: 68.333%;
+  float: left;
+}
+
+.dates {
+  font-size: smaller;
+  color: #808080;
+}
+
+
+.big-section {
+  background-color: #ffffff;
+  box-shadow: 9px 7px 40px -16px rgba(0,0,0,0.72);
+  margin: 30px;
+}
+
+.big-section img {
+  width: 100%;
+  max-width: 100%;
+  }
+
+.entry-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.read-button {
+  padding: 15px 20px;
+  background-color: white;
+  border-radius: 0px;
+  border: 1px solid rgba(128, 128, 128, 0.486);
+}
+
+/*-----------------------------------*/
+
+
+
+/*.blog-entries {
+  background:white;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  max-width: 100%;
+  width: 68.333%;
+  float: left;
+}*/
+
+/*.blog-entries {
+  background-color: #ffffff;
+  box-shadow: 9px 7px 40px -16px rgba(0,0,0,0.72);
+  margin: 30px;
+}*/
+
+.blog-entries > img {
+  width: 100%;
+  max-width: 100%;
+  }
+
+.black-white {
+  background-color: black;
+  color: white;
+  padding: 4px;
+  justify-content: right;
+}
+
+.big-section > entry-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.big-section {
+  background-color: #ffffff;
+  box-shadow: 9px 7px 40px -16px rgba(0,0,0,0.72);
+  margin: 30px;
+}
+
+.read-button {
+  padding: 15px 20px;
+  background-color: white;
+  border-radius: 0px;
+  border: 1px solid rgba(128, 128, 128, 0.486);
+}
+
+.comments{
+  display:flex;
+  justify-content:space-between;
+  flex-direction:row;
+}
+span.round {
+border-radius: 12px;
+}
+
+
+/* ----------*/
+body{
+  background:rgba(212, 212, 212, 0.329);
+}
+
+.introduction{
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  width:25%;
+  
+}
+
+.my-name{
+  background:white;
+  box-shadow: 9px 7px 10px -5px rgba(0,0,0,1);
+  margin-bottom:17px;
+  margin: 30px;
+}
+
+.my-name img{
+  width:100%;
+  max-width:100%;
+}
+
+.posts{
+  background:white;
+  box-shadow: 9px 7px 10px -5px rgba(0,0,0,1);
+  padding-top:0px;
+  margin: 30px;
+}
+
+.box-header{
+  background:rgba(212, 212, 212, 0.308);
+  padding-left:15px;
+  margin-top:0px;
+  height:30px;
+}
+
+.posts-list{
+  list-style-type:none;
+}
+
+ul li{
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  align-items:flex-start;
+}
+
+.introduction-text{
+  padding-left:15px;
+}
+
+.list-text{
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:flex-start;
+}
+
+.labels{
+  background:white;
+  padding-top:0px;
+  box-shadow: 9px 7px 10px -5px rgba(0,0,0,1);
+  margin: 30px;
+}
+
+.tags{
+  background:rgba(212, 212, 212, 0.308);
+  padding-left:15px;
+  margin-top:0px;
+  height:100%;
+}
+
+.span{
+  display:inline-block;
+  margin: 5px;
+}
+
+.travel{
+  background-color:black;
+  color:white;
+}
+
+.footerspace {
+  height: 19em;
+}
+
+
+  
+
+
+
+@media only screen and (max-width: 1170px) {
+  .blog-entries{
+    width: 64%;
+    float: left;
+  }
+
+  .introduction{
+    width:36%;
+  }
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  .blog-entries{
+    width: 100%;
+    float: none;
+  }
+
+  .introduction{
+    width:100%;
+    float:none;
+  }
+  .footerspace {
+  height: 2em;
+}
+
+
+}
+
+footer{
+  height: 80px;
+  background:#676766;
+  width: 100%;
+}
+
+
+#previous {
+  padding: 15px 20px;
+  color: white;
+  background-color: #000000;
+  border-radius: 0px;
+  border: 1px solid rgba(128, 128, 128, 0.486);
+  opacity: 0.4;
+}
+
+#next {
+  padding: 15px 20px;
+  color: white;
+  background-color: #000000;
+  border-radius: 0px;
+  border: 1px solid rgba(128, 128, 128, 0.486);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
