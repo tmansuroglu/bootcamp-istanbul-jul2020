@@ -1,0 +1,178 @@
+nav{
+    display:flex;
+    align-items:center;
+    background-color: black;
+   
+    
+}
+nav figure{
+    padding-right:100px;
+    padding-left:50px;
+}
+
+nav section{
+    display:flex;
+    justify-content:flex-end;
+    padding-left:100px;
+    
+}
+nav section a{
+    padding:0px 20px;
+    text-decoration:none;
+    color:white;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: url("cover.jpg");
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+header figure{
+    display:flex;
+    align-items:center;
+}
+   
+header a{
+    background-color: green;
+    margin:10px 10px;
+    padding:10px 40px;
+    border-radius:5px;
+    text-decoration:none;
+    color:white;    
+}
+header h1{
+    font-size: 80px;
+    margin:0px;
+}
+header p{
+    margin:10px 250px;
+}
+.green{
+    background-color:green;
+    
+   
+
+}
+.green figure{
+    display:flex;
+    justify-content:space-between;
+
+}
+.green figure img{
+    margin:0px 150px;
+}
+.green #heads{
+    display:flex;
+    justify-content:space-evenly;
+    color: white;
+
+}
+.green #heads h4{
+    margin:0px 120px;
+    text-align:center;
+    
+}
+.green #paraf{
+    display:flex;
+    justify-content:space-evenly;
+    padding:0px 15px 0px 15px;
+
+    
+}
+.green #paraf p{
+    margin:20px 100px;
+    text-align:center;
+}
+body{
+    background-color:black;
+}
+.white{
+    background-color: seashell ;
+    
+    
+   
+}
+.white .col{
+    display:flex;
+    justify-content:space-evenly;
+    
+    
+}
+
+.white figure{
+  float:right;
+}
+.white figure img{
+    height:300px
+}
+main{
+    background-color: white;
+    
+}
+main p{
+    overflow: hidden;
+    padding-right:10px;
+}
+main #head2{
+    display:flex;
+    justify-content:space-between
+}
+main figure{
+  display:flex;
+  justify-content:space-between;
+}
+main #row2{
+    display:flex;
+    justify-content:space-between;
+}
+main aside{
+    float:right;
+    width:30%;
+    background-color:green;
+    
+    
+}
+aside img{
+    float:right;
+}
+aside span{
+    font-size:35px;
+    
+}
+aside p{
+    color:white;
+    
+}
+#team aside{
+    background-color:grey;
+    text-align:center;
+    
+
+}
+#team figure{
+    display:flex;
+    justify-content:center;
+}
+footer{
+    background-color:greenyellow;
+}
+#stay{
+    display:flex;
+    
+}
+#stay figure{
+    display:flex;
+    align-items:center;
+    
+}
+iframe{
+    float:right;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}

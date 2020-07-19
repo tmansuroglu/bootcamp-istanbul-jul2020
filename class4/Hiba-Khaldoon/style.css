@@ -1,0 +1,87 @@
+
+
+header {
+  text-align: center;
+  margin:1rem;
+}
+/*header starts here */
+header span {
+  background-color: black;
+  color: white;
+}
+.card-text {
+  margin: 1em;
+}
+/*header ends here */
+
+#readmore {
+  border-color: gray;
+  background-color:transparent;
+  margin-left: 1em;
+}
+
+/*
+.my-name-text {
+  margin-left:0;
+}
+/* popular posts starts here */
+
+
+.list-group-item img {
+  float:left;
+}
+
+.list-group-item span {
+  margin:.4rem;
+}
+/* popular posts ends here */
+
+
+
+/* tags start here */ 
+#tags span {
+  padding: .1rem .5rem;
+  margin: .3rem .2rem;
+  font-size: .6rem;
+  background-color:  rgb(235, 232, 232);
+}
+
+
+#tags span:first-of-type {
+  color: white;
+  background-color:  black;
+  font-size: .8rem;
+}
+
+#tags p{
+  margin: 0 ;
+  padding: 0;
+  text-align: left;
+  
+}
+/* tags end here */
+
+/* footer starts here */
+footer {
+  padding-left:3rem;
+}
+
+#button-1, #button-2 {
+ color: white;
+  background-color:black ;
+  border: none;
+  border-radius: 0;
+  margin: .2rem;
+}
+
+#button-1 {
+ opacity: .5;
+}
+
+.m-0 a {
+  color:white;
+  text-decoration: underline;
+}
+
+
+/* footer ends here */
