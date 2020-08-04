@@ -36,9 +36,10 @@ const tpChecker = (obj) => {
   const numberOfSheetsInARoll = 500;
   const numberOfSheetsUsedPerDay = 57;
   let calculatedTP =
-    (Object.values(obj)[1] * 500) / (57 * Object.values(obj)[0]);
+    (Object.values(obj)[1] * numberOfSheetsInARoll) /
+    (numberOfSheetsUsedPerDay * Object.values(obj)[0]);
 
-  if (calculatedTP <= 14) {
+  if (calculatedTP < 14) {
     return `Your TP will only last ${Math.floor(calculatedTP)} days, buy more!`;
   } else {
     return `Your TP will last ${Math.floor(
