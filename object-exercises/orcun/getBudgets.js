@@ -9,7 +9,7 @@ function getBudgets(array){
     
   }
 
-  console.log(sum);
+  return sum;
 }
 
 getBudgets([

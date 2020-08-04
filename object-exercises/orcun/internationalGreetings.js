@@ -8,9 +8,9 @@ const GUEST_LIST = {
 
 function nameTag(name){
   if(name in GUEST_LIST){
-    console.log(`Hi! I'm ${name}, and I'm from ${GUEST_LIST[`${name}`]}.`);
+    return `Hi! I'm ${name}, and I'm from ${GUEST_LIST[`${name}`]}.`;
   }else{
-    console.log("Hi! I'm a guest.");
+    return "Hi! I'm a guest.";
   }
 }
 

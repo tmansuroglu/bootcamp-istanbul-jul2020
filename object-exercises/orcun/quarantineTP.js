@@ -13,13 +13,13 @@ function tpChecker(object){
 
   if(daysLeft < 14){
 
-    console.log(`Your TP will only last ${daysLeft} days, buy more!`);
+    return `Your TP will only last ${daysLeft} days, buy more!`;
   }
   else if(daysLeft == 14){
-    console.log(`Your TP will last ${daysLeft} days, we have taharet musluğu:)`);
+    return `Your TP will last ${daysLeft} days, we have taharet musluğu:)`;
   }
   else{
-    console.log(`Your TP will last ${daysLeft} days, no need to panic!`);
+    return `Your TP will last ${daysLeft} days, no need to panic!`;
   }
 }
 
