@@ -1,0 +1,22 @@
+.container{
+  display:flex;
+  justify-content:center;
+    padding-bottom:400px;
+
+}
+.title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn{
+margin-left:50px;
+}
+
+*{
+  font-family: 'Share Tech Mono', monospace;
+  font-size:20px;}
+
+input{
+  background-color:#d1d1d1	;
+}
