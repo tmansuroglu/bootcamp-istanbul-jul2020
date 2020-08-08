@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #A1FFCE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: rgb(1, 87, 1);
+}
+
+div {
+  margin: 0 auto;
+  padding: 1%;
+}
+div:nth-child(1){
+  padding-top: 7%;
+}
+
+input {
+  border: none;
+  background-color: lightgreen;
+  padding: 5px;
+  color: darkgreen;
+}
+input:focus{
+  border:none;
+}
+button{
+  border:#d8d79f 1px solid;
+  border-radius: 4px;
+  padding: 5px;
+  margin-left: 5px;
+  background-color: #FAFFD1;
+  color: rgb(156, 92, 63);
+}
+
+div#solution {
+  font-weight: bolder;
+  margin-top: 10px;
+  font-size: 50px;
+  padding: .5% 5%;
+  background-color: lightgreen;
+}
