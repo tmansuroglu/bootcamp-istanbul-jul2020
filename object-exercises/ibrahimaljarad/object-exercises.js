@@ -43,7 +43,11 @@ function getBudgets(arr){
     const usersNumber = object["people"]
     const tpNumber = object["tp"]
     const AVG = (tpNumber/usersNumber)*(500/57)
-        return `Your TP will only last ${Math.round(AVG)} days, buy more!`
-    
+        
+        if(AVG<14){
+          return `Your TP will only last ${Math.round(AVG)} days, buy more!`        }
+        else{
+          return `Your TP will last ${Math.round(AVG)} days, no need to panic!`
+        }
     }
      tpChecker({people: 4, tp: 12});
