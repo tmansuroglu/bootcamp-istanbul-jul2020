@@ -1,0 +1,35 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#github-container {
+  display: flex;
+  
+}
+
+
+
+ul {
+  list-style: none;
+}
+ li {
+  display: flex;
+  align-items: center;
+}
+
+#link {
+  color: coral;
+  text-decoration:underline;
+  cursor: pointer;
+}
+
+.image{
+  width:35px;
+  height:auto;
+  border-radius: 50%;
+  margin:6px;
+}
+
+
