@@ -1,0 +1,28 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+#github-container {
+  display: flex;
+  
+}
+
+ul {
+  list-style: none;
+}
+#user-list{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.user-img {
+  width: 100px;
+  max-width: 100%;
+ }
+ body{
+   background: linear-gradient(to right, rgba(205,232,243,1) 0%, rgba(60,191,231,1) 50%, rgba(214,236,245,1) 100%);
+ }

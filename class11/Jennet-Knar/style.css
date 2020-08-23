@@ -1,0 +1,7 @@
+.displayInRow {
+  display: flex;
+  flex-direction: row;
+}
+#result {
+  margin: 20px;
+}
