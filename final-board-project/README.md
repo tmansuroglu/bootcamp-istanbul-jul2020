@@ -5,7 +5,7 @@ something else; you may decide the purpose/function of this application. We are
 excited to see what you think of. Some examples of things in similar categories
 are:
 
-* To-do list
+* To-do list (you are not allowed to do this one)
 * Brainstorm board
 * [Kanban board](https://en.wikipedia.org/wiki/Kanban_board)
 * Notetaking apps
