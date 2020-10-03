@@ -5,7 +5,7 @@ something else; you may decide the purpose/function of this application. We are
 excited to see what you think of. Some examples of things in similar categories
 are:
 
-* To-do list
+* To-do list (you are not allowed to do this one)
 * Brainstorm board
 * [Kanban board](https://en.wikipedia.org/wiki/Kanban_board)
 * Notetaking apps
@@ -39,7 +39,7 @@ exactly what you planned out for your app.
 
 * **Theme and framework**: Use one of
   [React-Bootstrap](https://react-bootstrap.github.io/), [Ant
-  Design](https://ant.design/), or [Material UI](https://material-ui.com/).
+  Design](https://ant.design/), Material Bootstrap, [Material UI (not recommended)](https://material-ui.com/).
   Install the package using `npm` or `yarn`.
 * **Routing**: Use [react-router](https://reacttraining.com/react-router/) to
   navigate to different pages.
